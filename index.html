@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 2rem;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <img src="images/logo.svg" alt="Logo" class="logo">
+    
+    <a class="link" id="features" href="#">Features 
+      <img src="images/icon-arrow-down.svg" alt="arrow">
+      <div class="features">
+        <li><img src="images/icon-todo.svg" alt="Todo"> Todo List</li>
+        <li><img src="images/icon-calendar.svg" alt="Calendar"> Calendar</li>
+        <li><img src="images/icon-reminders.svg" alt="Remainders"> Reminders</li>
+        <li><img src="images/icon-planning.svg" alt="Planning"> Planning</li>
+      </div>
+    </a>
+    <a class="link" id="company" href="#">Company 
+      <img src="images/icon-arrow-down.svg" alt="arrow">
+      <div class="company">
+        <li>History</li>
+        <li>Our Team</li>
+        <li>Blog</li>
+      </div>
+    </a>
+    <a class="link" href="#">Careers</a>
+    <a class="link" href="#">About</a>
+
+    <div class="buttons">
+      <button class="login__btn">Login</button>
+      <button class="register__btn">Register</button>
+    </div>
+
+    <div class="menu-icon">
+      <img class="menu-icon-1" src="images/icon-menu.svg" alt="icon_menu">
+    </div>
+  </nav>
+  
+  <!-- Mobile Menu Bar -->
+  <div class="mobile_nav-bar">
+    <img class="navbar__close" src="images/icon-close-menu.svg" alt="Clsoe">
+    <a class="mobile_link" id="mobile_link_1" href="#">Features <img src="images/icon-arrow-down.svg" alt="Arrow-up"></a>
+    <div class="features__mobile">
+      <li><img src="images/icon-todo.svg" alt="Todo"> Todo List</li>
+      <li><img src="images/icon-calendar.svg" alt="Calendar"> Calendar</li>
+      <li><img src="images/icon-reminders.svg" alt="Remainders"> Reminders</li>
+      <li><img src="images/icon-planning.svg" alt="Planning"> Planning</li>
+    </div>
+    <a class="mobile_link" id="mobile_link_2" href="#">Company <img src="images/icon-arrow-down.svg" alt="Arrow-down"></a>
+    <div class="company__mobile">
+      <li>History</li>
+      <li>Our Team</li>
+      <li>Blog</li>
+    </div>
+    <a class="mobile_link" href="#">Careers</a>
+    <a class="mobile_link" href="#">About</a>
+    <button class="mobile_login__btn">Login</button>
+    <button class="mobile_register__btn">Register</button>
+  </div>
+
+  <div class="blur"></div>
+  <!-- Main Page -->
+  <section class="main_page">
+
+    <div class="text_section">
+      <div class="container">
+        <h1 class="title">Make remote work</h1>
+        <p class="sub_title">Get your team in sync, no matter your location. Streamline processes, 
+        create team rituals, and watch productivity soar.</p>
+        <button>Learn more</button>
+      </div>
+      
+      <div class="clients_logos">
+        <img src="images/client-databiz.svg" alt="Databiz">
+        <img src="images/client-audiophile.svg" alt="Audipo-phile">
+        <img src="images/client-meet.svg" alt="Meet">
+        <img src="images/client-maker.svg" alt="Marker">
+      </div>
+
+      
+    </div>
+
+    <div class="img_section">
+      <img class="main_page__image1" src="images/image-hero-desktop.png" alt="Main_image">
+      <img class="main_page__image2" src="images/image-hero-mobile.png" alt="Main_image">
+    </div>
+
+  </section>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/nikita-lenkov-ab0640208/" target="_blank">Nikita Lenkov</a>.
+  </div>
+
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/index.js"></script>
+</body>
+</html>
